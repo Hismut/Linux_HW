@@ -1,0 +1,7 @@
+#!/bin/bash
+for  count in {1..10}
+do
+DATE='date +%Y%m%d'
+date +%H:%M:S > "$count$DATE.txt"
+done
+
